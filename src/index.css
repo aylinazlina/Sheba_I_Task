@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+
+
+@theme{
+    --color-primary_color:rgb(0, 0, 0);
+    --color-main_color:rgb(40,166,159);
+    --color-hover_color:rgb(18, 69, 68);
+    --font-font_Inter:"Inter", sans-serif;
+    --font-secondary:"Oldenburg", serif;
+    --font-main: "Open Sans", sans-serif;
+    --font-lato: "Lato", sans-serif;
+
+}
