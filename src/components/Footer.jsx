@@ -72,6 +72,9 @@ const Footer = () => {
             </ul>
           </div>
 
+
+            {/* App store and google play button */}
+            
           <div className="space-y-6">
             <h6 className=" text-white font-bold text-[16px]">Get The App</h6>
             <div class="space-y-4 text-center mt-4">
