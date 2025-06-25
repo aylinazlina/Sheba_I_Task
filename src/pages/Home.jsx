@@ -7,6 +7,7 @@ import YourSafety from "../components/YourSafety"
 import Service from "../components/Service"
 import Recommended from "../components/Recommended"
 import Categories from "../components/Categories"
+import YourHome from "../components/YourHome"
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Navbar/>
       <Banner/>
       <Categories/>
+      <YourHome/>
       <Recommended/>
       <YourSafety/>
       <Service/>

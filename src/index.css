@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+:root{
+    --color_yourhome:rgb(203, 198, 191);
+}
+
 
 
 @theme{
@@ -13,6 +17,7 @@
     --color-saftey_color:rgb(245,245,245);
     --color-service_color:rgb(243,243,243);
     --color-recommend_card:rgb(251,251,251);
+    --color-yourhome:rgb(203, 198, 191);
     
 
 }
