@@ -108,9 +108,9 @@ const Service = () => {
             </div>
 
             {/* right part */}
-            <div className="bg-transparent px-2 py-2 overlayRightwrapper w-[40%] absolute top-0 left-[60%]">
+            <div className="bg-transparent px-2 py-2 overlayRightwrapper w-[40%] absolute top-0 left-[62%]">
               <div className="px-2 py-2 bg-transparent">
-              <img src={serviceImage} className="w-[93%] h-[90%]"/>
+              <img src={serviceImage} className="w-[94%] h-[90%]"/>
               </div>
             </div>
           </div>
