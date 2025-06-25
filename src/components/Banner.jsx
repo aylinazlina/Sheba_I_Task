@@ -79,15 +79,15 @@ const Banner = () => {
                 </p>
                 <div className="flex gap-2">
                   <Button
-                    btnDesign={"p-2 bg-black rounded-2xl text-white"}
+                    btnDesign={"p-2 bg-black rounded-2xl cursor-pointer text-white"}
                     btnContent={"Shifting"}
                   />
                   <Button
-                    btnDesign={"p-2 bg-black rounded-2xl  text-white"}
+                    btnDesign={"p-2 bg-black rounded-2xl cursor-pointer text-white"}
                     btnContent={"Beauty"}
                   />
                   <Button
-                    btnDesign={"p-2 bg-black rounded-2xl text-white"}
+                    btnDesign={"p-2 bg-black rounded-2xl cursor-pointer text-white"}
                     btnContent={"Home Service"}
                   />
                 </div>
