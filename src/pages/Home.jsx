@@ -6,12 +6,14 @@ import Banner from '../components/Banner'
 import YourSafety from "../components/YourSafety" 
 import Service from "../components/Service"
 import Recommended from "../components/Recommended"
+import Categories from "../components/Categories"
 
 const Home = () => {
   return (
     <div>
       <Navbar/>
       <Banner/>
+      <Categories/>
       <Recommended/>
       <YourSafety/>
       <Service/>
