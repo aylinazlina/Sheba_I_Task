@@ -162,8 +162,8 @@ const Footer = () => {
         <hr className="my-6 border-white" />
 
         <div className="flex flex-wrap items-center justify-between gap-5 w-full">
-          <p className="text-white font-normal font-secondary text-[16px]">
-            © 2024 AI DETECT. All rights reserved.
+          <p className="text-white font-normal font-secondary text-[16px] leading-[24px]">
+            © 2024 AI DETECT. <span className="font-main">All rights reserved.</span>
           </p>
           <div class="lg:flex lg:items-center">
             <ul class="flex space-x-6">
