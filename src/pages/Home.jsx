@@ -9,6 +9,7 @@ import Recommended from "../components/Recommended"
 import Categories from "../components/Categories"
 import YourHome from "../components/YourHome"
 import Feedback from "../components/Feedback"
+import Works from '../components/Works'
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <YourHome/>
       <Recommended/>
       <YourSafety/>
+      <Works/>
       <Feedback/>
       <Service/>
       <Footer/>

@@ -7,7 +7,7 @@ import img_4 from "../assets/images/Quotes_2.svg";
 const Feedback = () => {
   return (
     <div>
-      <div className="px-2 py-4 bg-white ">
+      <div className="px-2 py-4 bg-white mt-20 mb-10">
         <div className="flex flex-col items-center mb-8">
           <p className="font-lato font-bold text-[48px] leading-[58px] mb-4 ">
             CLIENT FEEDBACK'S
