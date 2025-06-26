@@ -94,7 +94,7 @@ const Categories = () => {
             explore diverse options, and find exactly what you need effortlessly
           </p>
           <div className="flex flex-wrap justify-center items-center gap-2">
-            {category ?.map((item)=>( <div className="w-[194px] h-[180px] bg-white  relative mt-16 rounded shadow-lg hover:border-2 hover:border-purple-400">
+            {category ?.map((item)=>( <div className="w-[194px] h-[180px] bg-white  relative mt-16 rounded shadow-lg cursor-pointer hover:border-2 hover:border-purple-400">
             <img src={item.image} className="top-[10%] left-[35%] absolute"/>
             <p className="font-font_Inter font-semibold text-[18px] leading-[36px] absolute top-[50%] left-[23%]">{item.title}</p>
             <p className="font-font_Inter text-gray-400 font-light text-[16px] leading-[36px] absolute top-[65%] left-[32%]">Listing</p>
@@ -104,7 +104,7 @@ const Categories = () => {
            
           </div>
 
-          <Button btnDesign={"px-6 py-2 bg-black text-white rounded font-font_Inter font-normal text-[18px] mt-8"} btnContent={"View More"}/>
+          <Button btnDesign={"px-6 py-2 bg-black text-white rounded font-font_Inter font-normal text-[18px] mt-8 cursor-pointer"} btnContent={"View More"}/>
 
         </div>
       </section>

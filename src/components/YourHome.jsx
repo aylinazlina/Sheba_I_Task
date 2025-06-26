@@ -110,7 +110,7 @@ const YourHome = () => {
                       />
                       <div className="px-1 py-1 bg-transparent absolute bottom-[10%]">
 
-                        <Button btnDesign={"px-4 py-2 bg-yourhome text-white rounded-lg font-lato font-normal text-[16px] leading-[24px]"} btnContent={"Plumbing and Sanitary Services"}/>
+                        <Button btnDesign="px-4 py-2 bg-gray-300 text-white rounded-lg font-lato font-normal text-[16px] leading-[24px]" btnContent={"Plumbing and Sanitary Services"}/>
                         
                       </div>
                     </div>
