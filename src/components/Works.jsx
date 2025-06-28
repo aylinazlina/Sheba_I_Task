@@ -9,7 +9,7 @@ const Works = () => {
 
         <div className="ml-5 mr-5 bg-transparent rounded-r-md absolute top-[5%] left-[25%]">
           <div className="flex flex-col justify-center items-center mt-8">
-            <p className="font-lato font-bold text-[48px] leading-[58px]">
+            <p className="font-lato font-bold text-[48px] leading-[58px] mb-4">
               HOW IT WORKS
             </p>
             <p className="font-main font-normal text-[16px] leading-[27px] w-[651px] text-center">
@@ -47,7 +47,7 @@ const Works = () => {
           xmlns:xlink="http://www.w3.org/1999/xlink"
           xmlns:svgjs="http://svgjs.dev/svgjs"
           viewBox="0 0 800 800"
-          className="absolute  top-[13%] left-[32%] w-[500px] h-[500px]"
+          className="absolute  top-[17%] left-[32%] w-[500px] h-[400px]"
         >
           <g
             stroke-width="10"
@@ -81,7 +81,7 @@ const Works = () => {
         </svg>
 
         {/* card_2 */}
-        <div className="bg-transparent px-4 py-8 mr-5  ml-5 absolute top-[35%] right-[7%]">
+        <div className="bg-transparent px-4 py-8 mr-5  ml-5 absolute top-[34%] right-[7%]">
           <div className="bg-white w-[426px] h-[286px] rounded-xl flex flex-col justify-center items-center">
             <div className="w-[70px] h-[70px] bg-gray-200 rounded-full relative">
               <div className="w-[45px] h-[45px] rounded-full bg-black absolute top-[18%] left-[15%] ">
@@ -166,7 +166,7 @@ const Works = () => {
           xmlns:xlink="http://www.w3.org/1999/xlink"
           xmlns:svgjs="http://svgjs.dev/svgjs"
           viewBox="0 0 800 800"
-          className="absolute top-[65%] left-[29%] w-[500px] h-[400px]"
+          className="absolute top-[60%] left-[29%] w-[500px] h-[400px]"
         >
           <g
             stroke-width="10"
@@ -201,7 +201,7 @@ const Works = () => {
         </svg>
 
         {/* card_4 */}
-        <div className="bg-transparent px-4 py-8 mr-5  ml-5 absolute top-[75%] right-[5%]">
+        <div className="bg-transparent px-4 py-8 mr-5  ml-5 absolute top-[75%] right-[6%]">
           <div className="bg-white w-[426px] h-[286px] rounded-xl flex flex-col justify-center items-center">
             <div className="w-[70px] h-[70px] bg-gray-200 rounded-full relative">
               <div className="w-[45px] h-[45px] rounded-full bg-black absolute top-[18%] left-[15%] ">
