@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState ,memo} from "react";
 import safetyImage from "../assets/images/YourSafety.png";
 
 const YourSafety = () => {
@@ -133,4 +133,4 @@ const YourSafety = () => {
   );
 };
 
-export default YourSafety;
+export default memo(YourSafety);

@@ -1,4 +1,5 @@
 import React from "react";
+import {memo} from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -150,4 +151,4 @@ const YourHome = () => {
   );
 };
 
-export default YourHome;
+export default memo(YourHome);

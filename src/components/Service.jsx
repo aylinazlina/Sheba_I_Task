@@ -1,4 +1,5 @@
 import React from "react";
+import {memo} from "react";
 import serviceDesign from "../assets/images/serviceDesign.png";
 import image_1 from "../assets/images/service_1.png";
 import image_2 from "../assets/images/service_2.png";
@@ -100,4 +101,4 @@ const Service = () => {
   );
 };
 
-export default Service;
+export default memo(Service);

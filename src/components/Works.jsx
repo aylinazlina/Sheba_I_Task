@@ -1,4 +1,5 @@
 import React from "react";
+import {memo} from "react";
 import WorksbackDesign from "../assets/images/WorksDesign.png";
 
 const Works = () => {
@@ -226,4 +227,4 @@ const Works = () => {
   );
 };
 
-export default Works;
+export default memo(Works);

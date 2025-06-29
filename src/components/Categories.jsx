@@ -112,7 +112,7 @@ const Categories = () => {
                 </div>
 
                 <Button 
-                    btnDesign={"px-6 py-2 md:px-8 md:py-3 bg-black text-white rounded font-font_Inter font-normal text-base md:text-lg lg:text-[18px] mt-8 md:mt-12 cursor-pointer hover:bg-gray-800 transition-colors duration-300"} 
+                    btnDesign={"px-6 py-2 md:px-8 md:py-3 bg-black  text-white rounded font-font_Inter font-normal text-base md:text-lg lg:text-[18px] mt-8 md:mt-12 cursor-pointer hover:bg-gray-800 transition-colors duration-300"} 
                     btnContent={"View More"}
                 />
             </div>

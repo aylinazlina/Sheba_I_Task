@@ -1,4 +1,5 @@
 import React from "react";
+import {memo} from "react";
 import recom_1 from "../assets/images/recommended_1.png";
 import recom_2 from "../assets/images/recom_2.png";
 import recom_3 from "../assets/images/recommend_3.png";
@@ -44,4 +45,4 @@ const Recommended = () => {
   );
 };
 
-export default Recommended;
+export default memo(Recommended);

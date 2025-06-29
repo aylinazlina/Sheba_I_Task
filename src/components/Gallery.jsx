@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect ,memo } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import img_1 from "../assets/images/gallary_1.png"
 import img_2 from "../assets/images/gallary_2.png"
@@ -192,7 +192,7 @@ const Gallery = () => {
                 onClick={() => setActiveIndex(index)}
                 className={`w-3 h-3 rounded-full transition-all duration-300 ${
                   index === activeIndex
-                    ? "bg-blue-500 scale-125 shadow-lg"
+                    ? "bg-teal-500 scale-125 shadow-lg"
                     : "bg-gray-300 hover:bg-gray-400 hover:scale-110"
                 }`}
                 aria-label={`Go to image ${index + 1}`}
@@ -212,4 +212,4 @@ const Gallery = () => {
   );
 };
 
-export default Gallery;
+export default memo(Gallery);

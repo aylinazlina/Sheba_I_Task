@@ -1,4 +1,5 @@
 import React from "react";
+import {memo} from "react";
 import img_1 from "../assets/images/Feedback_1.png";
 import img_2 from "../assets/images/Feedback_2.png";
 import img_3 from "../assets/images/Quotes.png";
@@ -74,4 +75,4 @@ const Feedback = () => {
   );
 };
 
-export default Feedback;
+export default memo(Feedback);
