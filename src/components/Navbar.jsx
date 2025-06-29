@@ -24,7 +24,7 @@ const Navbar = () => {
               <img 
                 src={Logo} 
                 alt="logo" 
-                className="w-8 xs:w-10 sm:w-12 md:w-16 lg:w-36 h-auto" 
+                className="w-8 xs:w-10 sm:w-18 md:w-20 lg:w-36 h-auto" 
               />
             </a>
           </div>
@@ -35,7 +35,7 @@ const Navbar = () => {
               <li className="px-2 xl:px-3">
                 <a
                   href="javascript:void(0)"
-                  className="hover:text-hover_color hover:font-semibold text-primary_color block font-normal text-lg xl:text-[20px] font-font_Inter transition-all duration-200"
+                  className="hover:text-hover_color hover:font-semibold text-primary_color block font-light text-lg xl:text-[20px] font-font_Inter transition-all duration-200"
                 >
                   Home
                 </a>
