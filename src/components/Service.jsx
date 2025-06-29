@@ -12,11 +12,11 @@ const Service = () => {
             className="w-full h-auto object-cover"
             alt="Service background"
           />
-          <div className="absolute inset-0 flex flex-col lg:flex-row">
+          <div className="absolute inset-0 flex flex-wrap flex-col lg:flex-row">
             {/* Left Part */}
-            <div className="w-full lg:w-[50%] h-full flex flex-col justify-between p-4 sm:p-6 md:p-8 relative">
+            <div className="w-full lg:w-[50%] h-full flex flex-wrap flex-col justify-between p-4 sm:p-6 md:p-8 relative">
               {/* Top Left - App Buttons */}
-              <div className="mt-4 sm:mt-8 md:mt-12 lg:mt-0 flex flex-col items-center lg:items-start space-y-4">
+              <div className="mt-4 sm:mt-8 md:mt-12 lg:mt-0 flex flex-wrap flex-col items-center lg:items-start space-y-4">
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <button
                     type="button"
@@ -88,7 +88,7 @@ const Service = () => {
 
             {/* Right Part - Image */}
             <div className="hidden lg:block w-[40%] absolute top-0 right-0 h-full">
-              <div className="h-full flex items-center justify-end pr-4">
+              <div className="h-full flex flex-wrap items-center justify-end pr-4">
                 <img 
                   src={serviceImage} 
                   className="w-[94%] h-[90%] object-contain"
