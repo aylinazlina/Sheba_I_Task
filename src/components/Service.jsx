@@ -1,11 +1,13 @@
 import React from "react";
 import serviceDesign from "../assets/images/serviceDesign.png";
 import serviceImage from "../assets/images/service_ImageRightPart.png";
+import image_1 from "../assets/images/service_1.png";
+import image_2 from '../assets/images/service_2.png'
 
 const Service = () => {
   return (
-    <section className="px-4 py-6 sm:px-6 md:px-8 lg:px-12 xl:px-20 bg-transparent mb-6">
-      <div className="relative bg-service_color rounded-xl overflow-hidden">
+    <section className="px-4 py-4 sm:px-6 md:px-8 lg:px-12 xl:px-20 bg-transparent mb-6">
+      <div className="relative bg-service_color rounded-2xl overflow-hidden">
         {/* Background Image */}
         <img
           src={serviceDesign}
@@ -17,10 +19,10 @@ const Service = () => {
         <div className="relative z-10 flex flex-col lg:flex-row p-4 sm:p-6 md:p-8 gap-6">
           {/* Left Section */}
           <div className="w-full lg:w-1/2 flex flex-col justify-center">
-            <h2 className="text-center lg:text-left font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl text-black leading-tight mb-4">
+            <h2 className="text-center lg:text-left font-bold text-xl sm:text-2xl md:text-3xl lg:text-[62.4px] font-lato text-black leading-tight mb-4">
               Get your service from our app
             </h2>
-            <p className="text-center lg:text-left text-sm sm:text-base text-black mb-6">
+            <p className="text-center lg:text-left text-sm sm:text-base text-black mb-6 font-main">
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration in some.
             </p>
@@ -98,12 +100,16 @@ const Service = () => {
           </div>
 
           {/* Right Image Section */}
-          <div className="w-full lg:w-1/2 flex justify-center lg:justify-end items-center">
-            <img
-              src={serviceImage}
-              alt="Service App"
-              className="w-full h-auto max-w-[400px] object-contain"
-            />
+          <div className="w-full lg:w-1/2 flex justify-center lg:justify-end items-center relative">
+           <div className="px-4 py-4 sm:w-[300px] sm:h-[500px]">
+
+            <img src={image_1} className="top-[39%] right-[40%] absolute"/>
+           </div>
+
+           <div className="px-4 py-4 sm:w-[300px] sm:h-[500px]">
+
+            <img src={image_2} className="top-[47%] right-[15%] absolute"/>
+           </div>
           </div>
         </div>
       </div>
