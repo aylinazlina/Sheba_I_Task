@@ -79,7 +79,7 @@ const YourHome = () => {
           ...style,
           display: "block",
           padding: "20px",
-          background: "purple",
+          background: "teal",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
@@ -103,7 +103,7 @@ const YourHome = () => {
         style={{
           ...style,
           display: "block",
-          background: "black",
+          background: "teal",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",

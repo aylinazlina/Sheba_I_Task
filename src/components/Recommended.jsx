@@ -13,25 +13,25 @@ const Recommended = () => {
             Recommended
           </p>
          <div className="flex flex-wrap justify-around">
-             <div className="max-w-[301px] max-h-[375px] px-2 py-4 bg-recommend_card rounded-xl shadow-lg">
+             <div className="max-w-[301px] max-h-[375px] px-2 py-4 bg-recommend_card rounded-xl shadow-lg hover:border-2 hover:border-purple-500 cursor-pointer">
             <img src={recom_1} className="ml-1 mt-2" />
             <p className="font-lato font-bold text-[14px] leading-[23px] ml-7 mt-3 mb-4 ">
               Plumbing & Sanitary Services
             </p>
           </div>
-            <div className="max-w-[301px] max-h-[375px] px-2 py-4 bg-recommend_card rounded-xl shadow-lg">
+            <div className="max-w-[301px] max-h-[375px] px-2 py-4 bg-recommend_card rounded-xl shadow-lg hover:border-2 hover:border-purple-500 cursor-pointer">
             <img src={recom_2} className="ml-1 mt-2" />
             <p className="font-lato font-bold text-[14px] leading-[23px] ml-7 mt-3 mb-4 ">
               Plumbing & Sanitary Services
             </p>
           </div>
-            <div className="max-w-[301px] max-h-[375px] px-2 py-4 bg-recommend_card rounded-xl shadow-lg">
+            <div className="max-w-[301px] max-h-[375px] px-2 py-4 bg-recommend_card rounded-xl shadow-lg hover:border-2 hover:border-purple-500 cursor-pointer">
             <img src={recom_3} className="ml-1 mt-2" />
             <p className="font-lato font-bold text-[14px] leading-[23px] ml-7 mt-3 mb-4 ">
               Plumbing & Sanitary Services
             </p>
           </div>
-            <div className="max-w-[304px] max-h-[375px] px-2 py-4 bg-recommend_card rounded-xl shadow-lg">
+            <div className="max-w-[304px] max-h-[375px] px-2 py-4 bg-recommend_card rounded-xl shadow-lg hover:border-2 hover:border-purple-500 cursor-pointer">
             <img src={recome_4} className="ml-1 mt-2" />
             <p className="font-lato font-bold text-[14px] leading-[23px] ml-7 mt-3 mb-4 ">
               Plumbing & Sanitary Services

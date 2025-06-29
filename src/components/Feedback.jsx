@@ -28,7 +28,7 @@ const Feedback = () => {
           </p>
           <img
             src={img_3}
-            className="absolute top-[5%] right-0 opacity-10 w-12 sm:w-16 md:w-20"
+            className="absolute top-[5%] right-0 opacity-10 w-12 sm:w-16 md:w-18 h-auto"
             alt="Quote decoration"
           />
         </div>
